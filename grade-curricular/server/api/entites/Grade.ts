@@ -1,4 +1,4 @@
 export interface Grade {
-    id: string,
-    semestre: number,
-} 
+  id: string;
+  semestre: number;
+}
