@@ -13,10 +13,10 @@ tags:
 paths:
   /grade:
     get:
-    responses:
-      200:
-        description: Return all
-        content: {}
+      responses:
+        200:
+          description: Return all
+          content: {}
   /examples:
     get:
       tags:
