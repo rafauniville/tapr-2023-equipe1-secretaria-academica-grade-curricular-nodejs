@@ -1,0 +1,38 @@
+Starting Dapr with id tapr-2023-equipe1-carro-javascript. HTTP Port: 40441. gRPC Port: 39703
+Updating metadata for cliPID: 48451
+time="2023-11-27T02:47:07.983469586Z" level=info msg="Starting Dapr Runtime -- version 1.12.2 -- commit f954254ed520409602024ea6d507d0405afa1f07" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:07.983763454Z" level=info msg="Log level set to: info" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:07.984333197Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime.security type=log ver=1.12.2
+time="2023-11-27T02:47:07.986578695Z" level=info msg="metrics server started on :37817/" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:07.987193481Z" level=info msg="standalone mode configured" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:07.987454208Z" level=info msg="app id: tapr-2023-equipe1-carro-javascript" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:07.987744048Z" level=info msg="Dapr trace sampler initialized: DaprTraceSampler(P=1.000000)" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:07.988861753Z" level=info msg="local service entry announced: tapr-2023-equipe1-carro-javascript -> 172.16.5.4:44131" app_id=tapr-2023-equipe1-carro-javascript component="mdns (nameResolution/v1)" instance=codespaces-eb9522 scope=dapr.contrib type=log ver=1.12.2
+time="2023-11-27T02:47:07.98910177Z" level=info msg="Initialized name resolution to mdns" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:07.989392122Z" level=info msg="Loading components…" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:07.990355959Z" level=info msg="Waiting for all outstanding components to be processed…" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:10.992035135Z" level=info msg="Component loaded: servicebus-pubsub (pubsub.azure.servicebus.topics/v1)" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:10.992105396Z" level=info msg="All outstanding components processed" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:10.99213436Z" level=info msg="Loading endpoints…" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:10.992383856Z" level=info msg="Waiting for all outstanding http endpoints to be processed…" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:10.992421366Z" level=info msg="All outstanding http endpoints processed" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:10.992541429Z" level=info msg="gRPC server listening on TCP address: :39703" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-11-27T02:47:10.992582296Z" level=info msg="Enabled gRPC tracing middleware" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-11-27T02:47:10.992608615Z" level=info msg="Enabled gRPC metrics middleware" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-11-27T02:47:10.992723629Z" level=info msg="Registering workflow engine for gRPC endpoint: [::]:39703" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-11-27T02:47:10.993322686Z" level=info msg="API gRPC server is running on port 39703" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:10.994293277Z" level=info msg="Enabled max body size HTTP middleware with size 4 MB" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-11-27T02:47:10.994333752Z" level=info msg="Enabled tracing HTTP middleware" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-11-27T02:47:10.994367325Z" level=info msg="Enabled metrics HTTP middleware" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-11-27T02:47:10.994759737Z" level=info msg="HTTP server listening on TCP address: :40441" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-11-27T02:47:10.994831531Z" level=info msg="HTTP server is running on port 40441" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:10.994858681Z" level=info msg="The request body size parameter is: 4" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:10.994909065Z" level=info msg="gRPC server listening on TCP address: :44131" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-11-27T02:47:10.994962475Z" level=info msg="Enabled gRPC tracing middleware" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-11-27T02:47:10.994985838Z" level=info msg="Enabled gRPC metrics middleware" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-11-27T02:47:10.995033006Z" level=info msg="Internal gRPC server is running on port 44131" app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-27T02:47:10.995445756Z" level=info msg="application protocol: http. waiting on port 3000.  This will block until the app is listening on that port." app_id=tapr-2023-equipe1-carro-javascript instance=codespaces-eb9522 scope=dapr.runtime type=log ver=1.12.2
+Updating metadata for app command: npm run dev
+Updating metadata for appPID: 48465
+You're up and running! Dapr logs will appear here.
+

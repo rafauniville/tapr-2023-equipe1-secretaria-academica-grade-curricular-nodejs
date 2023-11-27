@@ -11,8 +11,95 @@ tags:
 - name: Specification
   description: The swagger API specification
 paths:
-  /grade:
+  /grades:
     get:
+      responses:
+        200:
+          description: Return all
+          content: {}
+    post:
+      responses:
+          200:
+            description: Return all
+            content: {}
+  /grades/{id}:
+    get:
+      responses:
+        200:
+          description: Return all
+          content: {}
+    put:
+      responses:
+        200:
+          description: Return all
+          content: {}
+    delete:
+      responses:
+        200:
+          description: Return all
+          content: {}
+    /cursos:
+    get:
+      responses:
+        200:
+          description: Return all
+          content: {}
+    post:
+      responses:
+          200:
+            description: Return all
+            content: {}
+  /cursos/{id}:
+    get:
+      responses:
+        200:
+          description: Return all
+          content: {}
+    put:
+      responses:
+        200:
+          description: Return all
+          content: {}
+    delete:
+      responses:
+        200:
+          description: Return all
+          content: {}
+  /cursos/event:
+    post:
+      responses:
+        200:
+          description: Return all
+          content: {}
+  /disciplinas:
+    get:
+      responses:
+        200:
+          description: Return all
+          content: {}
+    post:
+      responses:
+          200:
+            description: Return all
+            content: {}
+  /disciplinas/{id}:
+    get:
+      responses:
+        200:
+          description: Return all
+          content: {}
+    put:
+      responses:
+        200:
+          description: Return all
+          content: {}
+    delete:
+      responses:
+        200:
+          description: Return all
+          content: {}
+  /disciplinas/event:
+    post:
       responses:
         200:
           description: Return all

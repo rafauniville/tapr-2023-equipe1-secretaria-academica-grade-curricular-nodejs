@@ -15,6 +15,16 @@ class GradeController {
         res.status(400).end();
     gradeService.saveNew(req.body).then((r) => res.json(r));
   }
+  update(req:Request, res:Response): void{
+    if(req.params['id'] == undefined || req.params['id'] == "" || req.body == undefined)
+        res.status(400).end();
+    gradeService.update(req.params['id'],req.body).then((r) => res.json(r)).catch(() => res.status(404).end());
+}
+delete(req:Request, res:Response): void{
+    if(req.params['id'] == undefined || req.params['id'] == "")
+        res.status(400).end();
+    gradeService.delete(req.params['id']).then((r) => res.json(r));
+}
 }
 
 export default new GradeController();

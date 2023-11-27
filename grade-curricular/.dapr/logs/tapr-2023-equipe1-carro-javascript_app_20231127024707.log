@@ -1,0 +1,51 @@
+== APP - tapr-2023-equipe1-carro-javascript == 
+== APP - tapr-2023-equipe1-carro-javascript == > grade-curricular@1.0.0 dev
+== APP - tapr-2023-equipe1-carro-javascript == > nodemon server/index.ts | pino-pretty
+== APP - tapr-2023-equipe1-carro-javascript == 
+== APP - tapr-2023-equipe1-carro-javascript == [nodemon] 2.0.22
+== APP - tapr-2023-equipe1-carro-javascript == [nodemon] to restart at any time, enter `rs`
+== APP - tapr-2023-equipe1-carro-javascript == [nodemon] watching path(s): server/**/* .env
+== APP - tapr-2023-equipe1-carro-javascript == [nodemon] watching extensions: ts,js,json,yaml,yml
+== APP - tapr-2023-equipe1-carro-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-carro-javascript == /workspaces/tapr-2023-equipe1-secretaria-academica-grade-curricular-nodejs/grade-curricular/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-carro-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-carro-javascript ==            ^
+== APP - tapr-2023-equipe1-carro-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-carro-javascript == server/api/services/grade.service.ts(2,10): error TS2724: '"@dapr/dapr"' has no exported member named 'daprClient'. Did you mean 'DaprClient'?
+== APP - tapr-2023-equipe1-carro-javascript == 
+== APP - tapr-2023-equipe1-carro-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-secretaria-academica-grade-curricular-nodejs/grade-curricular/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-carro-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-secretaria-academica-grade-curricular-nodejs/grade-curricular/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-carro-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-secretaria-academica-grade-curricular-nodejs/grade-curricular/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-carro-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-secretaria-academica-grade-curricular-nodejs/grade-curricular/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-carro-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-secretaria-academica-grade-curricular-nodejs/grade-curricular/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-carro-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-carro-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-secretaria-academica-grade-curricular-nodejs/grade-curricular/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-carro-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-carro-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-carro-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-carro-javascript ==   diagnosticCodes: [ 2724 ]
+== APP - tapr-2023-equipe1-carro-javascript == }
+== APP - tapr-2023-equipe1-carro-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-carro-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-carro-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-carro-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-carro-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-carro-javascript == /workspaces/tapr-2023-equipe1-secretaria-academica-grade-curricular-nodejs/grade-curricular/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-carro-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-carro-javascript ==            ^
+== APP - tapr-2023-equipe1-carro-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-carro-javascript == server/api/services/grade.service.ts(29,16): error TS2339: Property 'pubsub' does not exist on type 'typeof DaprClient'.
+== APP - tapr-2023-equipe1-carro-javascript == 
+== APP - tapr-2023-equipe1-carro-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-secretaria-academica-grade-curricular-nodejs/grade-curricular/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-carro-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-secretaria-academica-grade-curricular-nodejs/grade-curricular/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-carro-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-secretaria-academica-grade-curricular-nodejs/grade-curricular/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-carro-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-secretaria-academica-grade-curricular-nodejs/grade-curricular/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-carro-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-secretaria-academica-grade-curricular-nodejs/grade-curricular/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-carro-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-carro-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-secretaria-academica-grade-curricular-nodejs/grade-curricular/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-carro-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-carro-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-carro-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-carro-javascript ==   diagnosticCodes: [ 2339 ]
+== APP - tapr-2023-equipe1-carro-javascript == }
+== APP - tapr-2023-equipe1-carro-javascript == [nodemon] app crashed - waiting for file changes before starting...

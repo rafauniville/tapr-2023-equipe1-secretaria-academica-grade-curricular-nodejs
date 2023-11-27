@@ -1,10 +1,11 @@
 import express from 'express';
-import controller from './grade.controller';
+import controller from '../Curso/cursocontroller';
 
 export default express
     .Router()
     .get('/', controller.all)
     .get('/:id', controller.getById)
-    .post('/:id', controller.post)
+    .post('/', controller.post)
     .put('/:id', controller.update)
     .delete('/:id', controller.delete)
+    .post('/event', controller.updateEvent);
