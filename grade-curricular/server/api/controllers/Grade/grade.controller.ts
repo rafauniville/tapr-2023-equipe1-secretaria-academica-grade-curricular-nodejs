@@ -25,6 +25,9 @@ delete(req:Request, res:Response): void{
         res.status(400).end();
     gradeService.delete(req.params['id']).then((r) => res.json(r));
 }
+updateEvent(req:Request, res:Response): void{
+  gradeService.updateEvent(req.body.data).then((r) => res.json(r)).catch(() => res.status(404).end());
+}
 }
 
 export default new GradeController();

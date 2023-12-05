@@ -1,5 +1,5 @@
 import { Container, SqlQuerySpec } from '@azure/cosmos';
-import { DaprClient } from "@dapr/dapr";
+import daprClient from "../../common/daprclient"
 import cosmosdb from '../../../server/common/cosmosdb';
 import { Grade } from '../entites/Grade';
 
@@ -26,7 +26,7 @@ class GradeService {
   }
 
   async publishEvent(grade:Grade): Promise<Grade>{
-    DaprClient.pubsub.publish(process.env.APPCOMPONENTSERVICE as string,
+    daprClient.pubsub.publish(process.env.APPCOMPONENTSERVICE as string,
                               process.env.APPCOMPONENTTOPICOGRADE as string,
                               grade);
     return Promise.resolve(grade);
@@ -77,6 +77,10 @@ class GradeService {
     
     return Promise.resolve(id);
   }
+  async updateEvent(grade:Grade): Promise<Grade>{
+    await this.container.items.upsert(grade);
+    return Promise.resolve(grade);
+}
 
 }
 

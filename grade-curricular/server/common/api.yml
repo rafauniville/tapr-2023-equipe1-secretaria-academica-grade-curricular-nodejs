@@ -38,7 +38,13 @@ paths:
         200:
           description: Return all
           content: {}
-    /cursos:
+  /grades/event:
+    post:
+      responses:
+        200:
+          description: Return all
+          content: {}
+  /cursos:
     get:
       responses:
         200:
